@@ -24,6 +24,9 @@ inputs:
     description: github commit message to push with
     required: false
     default: 'pre-commit fixes'
+  git_sha:
+    description: A git ref to push the changes to.
+    required: false
 
 runs:
   using: 'node16'
